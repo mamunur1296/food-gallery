@@ -4,7 +4,7 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 
 }
@@ -59,6 +59,11 @@ body {
     border-radius: 10px;
     border: none;
 
+
+}
+
+.heder-artical button a {
+    color: tomato;
 }
 
 .heder-artical button:hover {
@@ -84,7 +89,7 @@ body {
 
 }
 
-.weight-loss {}
+
 
 .wl-card-1 {
     padding: 40px;
@@ -165,4 +170,72 @@ body {
 
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+.main-section-two {
+    width: 100%;
+    height: 700px;
+    background-image: url(images/section-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+.be-helthe {
+    height: 50%;
+    width: 100%;
+
+}
+
+.be-helthe-section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-submit-none {
+    width: 50%;
+    visibility: hidden;
+
+}
+
+.mail-submit {
+    width: 50%;
+
+
+
+}
+
+.mail-submit h3 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.gmail-buton {
+    display: grid;
+    width: 25%;
+}
+
+.gmail-buton input {
+    padding: 5px 20px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.gmail-buton button {
+    padding: 5px 20px;
+    background-color: #6949A0;
+    color: white;
+}
+
+.gmail-buton button:hover {
+    background-color: black;
+}
+
+.top-tips {
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid rgb(23, 85, 216);
 }
