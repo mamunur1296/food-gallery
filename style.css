@@ -587,3 +587,95 @@ main {
         width: 100%;
     }
 }
+
+.Featured {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.feutured-img {
+    width: 30%;
+}
+
+.feutured-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.feutured-text {
+    width: 55%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.feutured-text h2 {
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.feutured-text p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6C6C6C;
+    width: 60%;
+}
+
+.feutured-text-button {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 44px;
+    width: 155px;
+    background-color: #E02C6D;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.feutured-text-button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.fa-right-long {
+    font-size: 16px;
+    color: white;
+}
+
+@media screen and (max-width:576px) {
+    .Featured {
+        flex-direction: column-reverse;
+
+
+    }
+
+    .feutured-img {
+        width: 100%;
+    }
+
+    .feutured-text {
+        width: 100%;
+
+    }
+
+    .feutured-text h2 {
+        text-align: center;
+    }
+
+    .feutured-text p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .feutured-text-button {
+        margin: 35px auto;
+    }
+}
