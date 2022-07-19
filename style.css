@@ -478,3 +478,112 @@ main {
 
 
 }
+
+.main-section-five {}
+
+.Popular-Collections h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 35px;
+    clear: #3A3A3A;
+
+}
+
+.Popular-Collection-card h2 {
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.Popular-Collection-card h3 {
+    font-size: 1.90em;
+    font-weight: 200;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.Popular-Collection-card p {
+    color: #787885;
+    font-size: 15px;
+    font-weight: 700;
+    width: 50%;
+}
+
+.card-rating-starts {
+    display: flex;
+    align-items: center;
+}
+
+.card-rating-starts .fa-solid {
+    font-size: 10px;
+    color: #FB8200;
+
+}
+
+.card-rating-starts p {
+    font-size: 15px;
+    margin-left: 10px;
+    color: #5E6366;
+    font-weight: 700;
+}
+
+
+.Popular-Collection-cardses {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.Popular-Collection-card img {
+    width: 300px;
+    height: 255px;
+}
+
+.Popular-Collection-card {
+    box-shadow: 1px 1px 1px rgb(199, 198, 198);
+    padding: 20px;
+
+}
+
+.see-more {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.see-more a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #E02C6D;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.see-more .segend-aro {
+    font-size: 16px;
+    color: #E02C6D;
+}
+
+@media screen and (max-width:576px) {
+    .Popular-Collection-cardses {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .Popular-Collection-card img {
+        width: 100%;
+        height: 255px;
+    }
+
+    .see-more {
+        width: 100%;
+    }
+}
